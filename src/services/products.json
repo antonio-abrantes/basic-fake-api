@@ -1,0 +1,1526 @@
+[
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "fc19167e-7054-4d30-8fda-0516d46e5f43",
+    "id": "85462d57-9f72-4c19-8e93-ce2375581ed7",
+    "code": "",
+    "ean": null,
+    "priority": 1,
+    "name": "PIZZA CREK SALGADA",
+    "description": "Escolha o sabor da sua Pizza Crek Salgada!",
+    "price": 15.9,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "345cea9b-320d-4fe6-9123-32a34a13bf5f",
+        "default": false,
+        "description": "PIZZA CREK SALGADA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/50c49d1e-2a40-4e1c-b04d-d2b3d32ef9b6.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "fc19167e-7054-4d30-8fda-0516d46e5f43",
+    "id": "8090804f-abb8-46e9-b7f2-8eb0658abf96",
+    "code": "",
+    "ean": null,
+    "priority": 2,
+    "name": "PIZZA CREK DOCE",
+    "description": "Escolha o sabor da sua Pizza Crek Doce!",
+    "price": 12.83,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "ab4ce021-f393-492d-a4cb-d945a3c727d5",
+        "default": false,
+        "description": "PIZZA CREK DOCE",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/2e8484d0-e714-4596-a056-36632808d142.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "fc19167e-7054-4d30-8fda-0516d46e5f43",
+    "id": "0dc7ad18-e14e-40dd-aee0-fc167607e957",
+    "code": "",
+    "ean": null,
+    "priority": 3,
+    "name": "PIZZA CREK VEGANA",
+    "description": "Escolha o sabor da sua Pizza Crek Vegana!",
+    "price": 18.9,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "3805db1b-aad6-435e-804a-217a73cbb1bc",
+        "default": false,
+        "description": "PIZZA CREK VEGANA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/f69f91aa-c215-4208-a99b-4ef6d6e97e84.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "fc19167e-7054-4d30-8fda-0516d46e5f43",
+    "id": "79dc7c70-6c17-40ee-993d-75ba17fd4c78",
+    "code": "",
+    "ean": null,
+    "priority": 4,
+    "name": "COMBO MINI PIZZA CREK",
+    "description": "6 Unidades de Mini Pizza Crek. Escolha o sabor!!",
+    "price": 26.6,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "e1ca31d3-08f8-4a9d-b051-fda8ae0f0725",
+        "default": false,
+        "description": "COMBO MINI PIZZA CREK",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/73ddc769-4b6d-4c19-b31d-866dbeda01bd.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "7f9fefe8-cf58-4452-b7f3-e19890a997b9",
+    "id": "9461a0ad-8955-4a66-a405-564e350ff114",
+    "code": "",
+    "ean": null,
+    "priority": 1,
+    "name": "PIZZA CREK INTEGRAL SALGADA",
+    "description": "",
+    "price": 17.9,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "8d23bde2-d9c8-44b1-b5e4-5640b73b6f36",
+        "default": false,
+        "description": "PIZZA CREK INTEGRAL SALGADA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-dbac5882-8b7a-471e-a59e-979651036037.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "7f9fefe8-cf58-4452-b7f3-e19890a997b9",
+    "id": "58aea2ee-a1f1-441a-ad43-bebb7d9f0806",
+    "code": "",
+    "ean": null,
+    "priority": 2,
+    "name": "PIZZA CREK INTEGRAL VEGANA",
+    "description": "",
+    "price": 20.9,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "4853403d-01e0-4408-824c-1bc7fd2b6cd2",
+        "default": false,
+        "description": "PIZZA CREK INTEGRAL VEGANA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-8434db51-0eab-4350-b151-895e9949596a.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "7f9fefe8-cf58-4452-b7f3-e19890a997b9",
+    "id": "0a02f46f-a13c-4317-a3d8-619ad67826c4",
+    "code": "",
+    "ean": null,
+    "priority": 3,
+    "name": "PIZZA CREK INTEGRAL DOCE",
+    "description": "",
+    "price": 17.9,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "dd5fc7ea-7933-4959-a9c0-f5c7e85c5ab0",
+        "default": false,
+        "description": "PIZZA CREK INTEGRAL DOCE",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-929575b9-00fb-4bee-a6c2-45bccc67e663.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "7f9fefe8-cf58-4452-b7f3-e19890a997b9",
+    "id": "cd8f414e-6c68-484f-afff-f4b47b654ab0",
+    "code": "",
+    "ean": null,
+    "priority": 4,
+    "name": "Teste",
+    "description": "",
+    "price": 1,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "cced5e4c-f998-456c-b95d-53e222b5b525",
+        "default": false,
+        "description": "Teste",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-8da9658c-c7a3-4ca9-b698-197e22289978.png"
+      },
+      {
+        "id": "b3e2f603-4276-4d46-a427-b5f37958dfca",
+        "default": false,
+        "description": "Teste",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-ad5aeff2-7d8a-4aea-8e88-0e4e6c94fe54.png"
+      },
+      {
+        "id": "c749cb4b-637c-4b1b-8989-6241e8b4224e",
+        "default": false,
+        "description": "Teste",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-030a41c3-a860-4925-8507-0dcbd3e620ff.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "63af54a2-f87a-49c5-b91c-076021b485f4",
+    "id": "ee0d46d2-301c-4abc-a8d8-564338c38f10",
+    "code": "",
+    "ean": null,
+    "priority": 1,
+    "name": "BLUSA MANGA CURTA BUFANTE COM LASTEX NA BARRA",
+    "description": "lusa com decote V transpassado, manga curta bufante, elástico na barra da manga, lastex na barra da blusa, em crepe com estampa de camelos. Bonita e divertida a peça traz ao look muito estilo e personalidade, sem deixar o conforto de lado.",
+    "price": 119.9,
+    "availability": "UNAVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "fc11eb14-4e0c-47db-961c-27705aca5553",
+        "default": false,
+        "description": "BLUSA MANGA CURTA BUFANTE COM LASTEX NA BARRA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/fe2eb189-038b-4c50-9f8e-a13ecac42073.png"
+      },
+      {
+        "id": "ad0d0fef-4ec5-4028-9466-25c88457fc4f",
+        "default": false,
+        "description": "BLUSA MANGA CURTA BUFANTE COM LASTEX NA BARRA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/7815e858-3be1-4bc6-9c53-1be56820a742.png"
+      },
+      {
+        "id": "f431a647-a312-4141-b13e-b09cc682d05f",
+        "default": false,
+        "description": "BLUSA MANGA CURTA BUFANTE COM LASTEX NA BARRA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/64fe0490-52ff-4f5b-adc8-1089d3c96eaa.png"
+      },
+      {
+        "id": "73fc5708-7c81-405d-a959-3a7f41b162b2",
+        "default": false,
+        "description": "BLUSA MANGA CURTA BUFANTE COM LASTEX NA BARRA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/cb0fbdf4-7c9b-449c-a97c-ade7efc7f7c9.png"
+      }
+    ],
+    "variationsGrid": true,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "63af54a2-f87a-49c5-b91c-076021b485f4",
+    "id": "7a547e4c-db2e-44c3-80da-559d29eaf070",
+    "code": "",
+    "ean": null,
+    "priority": 2,
+    "name": "Blusa Feminina Crop",
+    "description": "Camisa 100% Algodão",
+    "price": 59.9,
+    "availability": "UNAVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "c63ef4ef-4bd8-41c4-a09b-e21505bdfdc3",
+        "default": false,
+        "description": "Blusa Feminina Crop",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/8661959a-844d-4ac1-98c9-5597042cf761.png"
+      },
+      {
+        "id": "1cc561c5-d667-42f9-b04d-d248aaf3830a",
+        "default": false,
+        "description": "Blusa Feminina Crop",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/25956d45-fb07-4cf0-bc45-f835efa81ad2.png"
+      },
+      {
+        "id": "61c96ed8-04d3-4f28-81d0-96601ddb7f42",
+        "default": false,
+        "description": "Blusa Feminina Crop",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/c52dfaef-0d33-499d-a73d-640611ad6bba.png"
+      },
+      {
+        "id": "60b15639-7c2b-4df0-aa04-9cc83c71546b",
+        "default": false,
+        "description": "Blusa Feminina Crop",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/66a051a4-3086-40c7-a426-15402c18cf24.png"
+      }
+    ],
+    "variationsGrid": true,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "63af54a2-f87a-49c5-b91c-076021b485f4",
+    "id": "1a9b5749-c51a-4ac2-8fef-cc17ad0e81ad",
+    "code": "",
+    "ean": null,
+    "priority": 3,
+    "name": "SUÉTER CANELADO EM TRICÔ COM MANGA LONGA E GOLA CANOA",
+    "description": "",
+    "price": 89.9,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "WEEKDAY",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "789740dd-88c1-4868-89c8-9156cfc8af69",
+        "default": false,
+        "description": "SUÉTER CANELADO EM TRICÔ COM MANGA LONGA E GOLA CANOA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/90e70f02-9108-4e61-afb6-7edf42fa8134.png"
+      }
+    ],
+    "variationsGrid": true,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "12df9cb0-ee00-4e6e-8ff9-0f182d440bb4",
+    "id": "34bfa882-589b-4f33-a049-f82af793c444",
+    "code": "",
+    "ean": null,
+    "priority": 1,
+    "name": "Sapato Nike Style",
+    "description": "",
+    "price": 149.9,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": true,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "6f025853-b72a-4662-8cde-7a8df0b4a7fe",
+        "default": false,
+        "description": "Sapato Nike Style",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/469e5f73-0c98-49ed-97ed-d009b399ef63.png"
+      }
+    ],
+    "variationsGrid": true,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "12df9cb0-ee00-4e6e-8ff9-0f182d440bb4",
+    "id": "1a19fee1-1146-4373-b115-77485f37d51c",
+    "code": "",
+    "ean": null,
+    "priority": 2,
+    "name": "Tênis Nike Downshifter 10 Masculino - Preto e Branco",
+    "description": "O Tênis Nike Masculino Downshifter 10 traz amortecimento e suporte atualizados, para garantir uma corrida estável e confortável. Esse tênis de corrida é confeccionado em material respirável, cabedal em couro sintético, com mesh no calcanhar, proporciona suporte e circulação de ar, forro acolchoado, entressola em espuma de EVA flexível, garantindo a sensação de amortecimento responsivo durante o treino e solado em borracha para tração durável.",
+    "price": 219.9,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": true,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "63d8cd0e-a507-4da4-9c9c-dc125791de63",
+        "default": false,
+        "description": "Tênis Nike Downshifter 10 Masculino - Preto e Branco",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/342ce282-ef8c-452f-a540-a2c01e0dbdce.png"
+      },
+      {
+        "id": "f6b3827b-dc4a-473b-abe8-724cad2b4fc4",
+        "default": false,
+        "description": "Tênis Nike Downshifter 10 Masculino - Preto e Branco",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/48ab7088-bb48-4898-8fe9-ad1d45452481.png"
+      },
+      {
+        "id": "7d180608-876e-413f-bc3a-d65949a3cc88",
+        "default": false,
+        "description": "Tênis Nike Downshifter 10 Masculino - Preto e Branco",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/76284fca-29f9-439a-81ed-0a4f19f37b8f.png"
+      },
+      {
+        "id": "761bf7eb-e23e-430d-9484-d0cfdb6af743",
+        "default": false,
+        "description": "Tênis Nike Downshifter 10 Masculino - Preto e Branco",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/8a68cebc-cf6e-457c-9867-639d20c83311.png"
+      }
+    ],
+    "variationsGrid": true,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "12df9cb0-ee00-4e6e-8ff9-0f182d440bb4",
+    "id": "0108caa2-1250-4b4b-9261-8cd96a605f14",
+    "code": "",
+    "ean": null,
+    "priority": 3,
+    "name": "MULE COM SOLA TÊNIS PRETO",
+    "description": "",
+    "price": 99.9,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": true,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 61,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "815b00ef-9123-45f7-8bf2-36b0ce17d434",
+        "default": false,
+        "description": "MULE COM SOLA TÊNIS PRETO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/3075a0f5-5518-4bb2-afd9-66f0f39e3f37.png"
+      }
+    ],
+    "variationsGrid": true,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "fffa04e1-bd9d-44a0-9673-32be0096dc5d",
+    "id": "873e1618-d1bb-4657-a0f1-8c11d5719910",
+    "code": "",
+    "ean": null,
+    "priority": 1,
+    "name": "Produto Pausado por horário",
+    "description": "",
+    "price": 5,
+    "availability": "UNAVAILABLE",
+    "availabilityOrigin": "WEEKDAY",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "044e7a17-50a1-4e6f-9dfb-25bc30db03c1",
+        "default": true,
+        "description": "Produto Pausado por horário",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/default_product.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "fffa04e1-bd9d-44a0-9673-32be0096dc5d",
+    "id": "ff8e1ffb-f8ec-4fda-8d23-d27a69a296e1",
+    "code": "",
+    "ean": null,
+    "priority": 2,
+    "name": "Produto Pausado Manualmente",
+    "description": "",
+    "price": 5,
+    "availability": "UNAVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "137b307d-1900-4d72-bdd0-b97d1a96c01f",
+        "default": true,
+        "description": "Produto Pausado Manualmente",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/default_product.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "fffa04e1-bd9d-44a0-9673-32be0096dc5d",
+    "id": "558ad0cb-d9ed-45ee-b4d8-96cf0075584f",
+    "code": "",
+    "ean": null,
+    "priority": 3,
+    "name": "Produto Disponível por horário",
+    "description": "",
+    "price": 5,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "WEEKDAY",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "9acfaf01-8fd3-454d-a3a5-d5c155867ac7",
+        "default": true,
+        "description": "Produto Disponível por horário",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/default_product.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "fffa04e1-bd9d-44a0-9673-32be0096dc5d",
+    "id": "8daba5b1-a361-425a-92ef-95b1fdcfd4b7",
+    "code": "",
+    "ean": null,
+    "priority": 4,
+    "name": "Produto Disponível Manualmente",
+    "description": "",
+    "price": 5,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "e3c50ff0-7f74-4420-841c-374aaca8278b",
+        "default": true,
+        "description": "Produto Disponível Manualmente",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/default_product.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "e4fa2fd0-a3d1-4d87-9fbc-515cdbbebf20",
+    "id": "a2c8ea37-34ce-43f8-9871-b4f95893f7e3",
+    "code": "",
+    "ean": "123123123",
+    "priority": 1,
+    "name": "CAMISA MANGA CURTA ESTAMPA OBRA AZUL TESTE",
+    "description": "",
+    "price": 139.9,
+    "availability": "UNAVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 119,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": true,
+      "height": 5,
+      "width": 5,
+      "length": 5,
+      "weight": 5.555
+    },
+    "images": [
+      {
+        "id": "9a134169-ae0e-4111-85da-058db5e8d6e7",
+        "default": false,
+        "description": "CAMISA MANGA CURTA ESTAMPA OBRA AZUL",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/7226079a-ab22-4419-9ce6-1d06e176443e.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "e4fa2fd0-a3d1-4d87-9fbc-515cdbbebf20",
+    "id": "fef74a69-e792-4f74-a989-9212afcd05b4",
+    "code": "",
+    "ean": "",
+    "priority": 2,
+    "name": "CAMISETA ESTAMPADA",
+    "description": "Medidas do Modelo:\nAltura:1,85\nManequim: 40\n\nTórax: 90\n\nModelo veste tamanho: M",
+    "price": 59.8,
+    "availability": "UNAVAILABLE",
+    "availabilityOrigin": "WEEKDAY",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "8aee21f2-a67b-498d-a2bb-95e264ec204c",
+        "default": false,
+        "description": "CAMISETA ESTAMPADA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/b99e1f17-e62f-4236-93c1-80d3879d8ba9.png"
+      },
+      {
+        "id": "329091a3-e247-460e-bbcd-2d43bdb72ac3",
+        "default": false,
+        "description": "CAMISETA ESTAMPADA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/86fa1ea9-ac82-4e1b-8415-1a95bb996434.png"
+      },
+      {
+        "id": "8ec79608-fe1f-4d51-a588-590552b5ca4f",
+        "default": false,
+        "description": "CAMISETA ESTAMPADA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/ea753d24-ace1-4dc8-9572-d9bb982759c0.png"
+      },
+      {
+        "id": "3b83a056-af49-4f56-9a86-3b9fb03e1e30",
+        "default": false,
+        "description": "CAMISETA ESTAMPADA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/6eceb723-87ad-4b14-947e-bae94320a62a.png"
+      }
+    ],
+    "variationsGrid": true,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "e4fa2fd0-a3d1-4d87-9fbc-515cdbbebf20",
+    "id": "5407eda6-12ba-4223-9d26-0bfc17a59a68",
+    "code": "4",
+    "ean": null,
+    "priority": 3,
+    "name": "CAMISA MORMAI",
+    "description": "Medidas do Modelo:\nAltura:1,85\nManequim: 40\n\nTórax: 90\n\nModelo veste tamanho: M",
+    "price": 49.9,
+    "availability": "UNAVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "dc608dde-cb76-4b53-84b5-b422cb06dd75",
+        "default": false,
+        "description": "CAMISETA LISA ALONGADA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/76a0b635-59c2-4e52-a6d1-44137cd54423.png"
+      },
+      {
+        "id": "8cc49801-5eab-46dc-a7e8-c734dc9ec09a",
+        "default": false,
+        "description": "CAMISETA LISA ALONGADA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/12cd1104-1263-4e2b-8069-14eab60b966b.png"
+      },
+      {
+        "id": "1b620ede-f6a0-4a63-9d9b-cfa3d990614f",
+        "default": false,
+        "description": "CAMISETA LISA ALONGADA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/f913ab5b-b753-49b9-8b0e-4ffc1d7b61a2.png"
+      },
+      {
+        "id": "c87cbf94-a7aa-4a0d-8280-fd6b2b0b1e0c",
+        "default": false,
+        "description": "CAMISETA LISA ALONGADA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/6379b05e-5c69-4b0c-a4b7-8230f9ac90c0.png"
+      },
+      {
+        "id": "35f8319a-5fae-4675-82f3-442d60cee614",
+        "default": false,
+        "description": "CAMISETA LISA ALONGADA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/a9d50b87-352b-40d5-94d7-d31a5fba1d47.png"
+      },
+      {
+        "id": "f7f3a05a-49de-42a7-803f-57def5fb47ac",
+        "default": false,
+        "description": "CAMISETA LISA ALONGADA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/fbcfb2f6-dcdd-4834-adc5-9b0ac1394259.png"
+      }
+    ],
+    "variationsGrid": true,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "e4fa2fd0-a3d1-4d87-9fbc-515cdbbebf20",
+    "id": "136266ec-0262-4fec-ad24-6a68f50f691b",
+    "code": "34",
+    "ean": null,
+    "priority": 4,
+    "name": "Bermuda PDV",
+    "description": "",
+    "price": 95.99,
+    "availability": "UNAVAILABLE",
+    "availabilityOrigin": "WEEKDAY",
+    "measure": "",
+    "merchantSuggestion": true,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": true,
+      "height": 1,
+      "width": 1,
+      "length": 1,
+      "weight": 0.02
+    },
+    "images": [
+      {
+        "id": "17995097-38a7-4145-8ca8-da95b10a99b3",
+        "default": false,
+        "description": "Bermuda PDV",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-136266ec-0262-4fec-ad24-6a68f50f691b_8e9f08fc-0e10-4c01-8088-40514208fbcb.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "e4fa2fd0-a3d1-4d87-9fbc-515cdbbebf20",
+    "id": "43d89818-6cde-4b11-a7a1-3611ce547e23",
+    "code": "35",
+    "ean": null,
+    "priority": 5,
+    "name": "Bermuda Tony2",
+    "description": "",
+    "price": 150,
+    "availability": "UNAVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": true,
+      "current": 129,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "98352e1a-b5dd-41ad-ae8d-0fec053c530a",
+        "default": false,
+        "description": "Bermuda Tony2",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-85a35d8b-cbd5-471b-b844-61e0a9a5e9fa.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "e4fa2fd0-a3d1-4d87-9fbc-515cdbbebf20",
+    "id": "8104fdbc-510f-4143-8c55-ca295d208751",
+    "code": "",
+    "ean": null,
+    "priority": 6,
+    "name": "PRODUTO SEM IMAGEM",
+    "description": "",
+    "price": 250,
+    "availability": "UNAVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "4b50a542-8c99-4e40-b819-287b8a2c7c3c",
+        "default": true,
+        "description": "PRODUTO SEM IMAGEM",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/default_product.png"
+      }
+    ],
+    "variationsGrid": true,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "e4fa2fd0-a3d1-4d87-9fbc-515cdbbebf20",
+    "id": "da64a55c-dddc-4b76-a44f-3abee79b66d9",
+    "code": "",
+    "ean": null,
+    "priority": 7,
+    "name": "Mais um produto de test2 update",
+    "description": "",
+    "price": 15,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "2fd89eb3-221a-4dab-b2cc-0ff52ab7ba3c",
+        "default": true,
+        "description": "Mais um produto de teste",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/default_product.png"
+      }
+    ],
+    "variationsGrid": true,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "e4fa2fd0-a3d1-4d87-9fbc-515cdbbebf20",
+    "id": "f7c0ad49-b37f-4191-bb6a-5277dba619ae",
+    "code": "",
+    "ean": null,
+    "priority": 8,
+    "name": "PRODUTO NOVO CADASTRADO AGORA",
+    "description": "",
+    "price": 5,
+    "availability": "UNAVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": true,
+      "current": 1,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "1c115d14-b292-4c1e-8c1c-bd82007e654c",
+        "default": true,
+        "description": "PRODUTO NOVO CADASTRADO AGORA",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/default_product.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "e4fa2fd0-a3d1-4d87-9fbc-515cdbbebf20",
+    "id": "fb5e4b85-54c7-42e1-97ad-23696abda178",
+    "code": "",
+    "ean": null,
+    "priority": 9,
+    "name": "PRODUTO NOVO TONY",
+    "description": "",
+    "price": 10,
+    "availability": "UNAVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": false,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "d27ead65-2752-4471-adf1-abcbb7bf11ba",
+        "default": true,
+        "description": "PRODUTO NOVO TONY",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/default_product.png"
+      }
+    ],
+    "variationsGrid": true,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "d557149d-09c7-4de1-a370-6c68e6865973",
+    "id": "d7a891ca-f5b0-4d30-abfa-191627af3c4b",
+    "code": "",
+    "ean": null,
+    "priority": 1,
+    "name": "BERMUDA EM LINHO COM BOLSOS",
+    "description": "Medidas do modelo:\nAltura: 1,82\nTórax: 92\nCintura: 78\nModelo veste tamanho: M",
+    "price": 59.9,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": true,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "03e4dede-fd22-4697-8143-043b75f495f8",
+        "default": false,
+        "description": "BERMUDA EM LINHO COM BOLSOS",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/bd507b44-01e6-403c-95c0-4ea13878fdf1.png"
+      },
+      {
+        "id": "d8d38f8b-6398-4dbb-8de5-4d32f7c4ddd9",
+        "default": false,
+        "description": "BERMUDA EM LINHO COM BOLSOS",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/6f85672d-5bff-4b28-9004-d024dbe20901.png"
+      },
+      {
+        "id": "e9c9102f-9fa5-4bb7-b13a-f3511b21a6c8",
+        "default": false,
+        "description": "BERMUDA EM LINHO COM BOLSOS",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/8f6bf5f3-b4c6-4de0-8f20-9bde4266182d.png"
+      },
+      {
+        "id": "d6b3c1a3-d923-4879-827d-0d66d7951314",
+        "default": false,
+        "description": "BERMUDA EM LINHO COM BOLSOS",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/aa6be965-838a-48c8-a71f-ed4572dc15a4.png"
+      },
+      {
+        "id": "0febf060-5c93-403d-a908-a58c933ca69c",
+        "default": false,
+        "description": "BERMUDA EM LINHO COM BOLSOS",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-d7a891ca-f5b0-4d30-abfa-191627af3c4b_e1d29e8b-0324-4e68-b387-25f745905777.png"
+      },
+      {
+        "id": "aeea6263-74e4-43ab-bb75-5e85f2a6987c",
+        "default": false,
+        "description": "BERMUDA EM LINHO COM BOLSOS",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-d7a891ca-f5b0-4d30-abfa-191627af3c4b_923acc91-d6ee-4ef3-ad6b-ff08302e5114.png"
+      },
+      {
+        "id": "1b51e39b-f82f-441c-9324-4b126a7f71da",
+        "default": false,
+        "description": "BERMUDA EM LINHO COM BOLSOS",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-d7a891ca-f5b0-4d30-abfa-191627af3c4b_4a5b3968-a428-4735-9078-cfaf1cd103f8.png"
+      },
+      {
+        "id": "a70981c3-1061-45c0-a28b-2cd0eab26625",
+        "default": false,
+        "description": "BERMUDA EM LINHO COM BOLSOS",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-d7a891ca-f5b0-4d30-abfa-191627af3c4b_f6253699-0c9b-48c4-aa3e-db662d4f866b.png"
+      }
+    ],
+    "variationsGrid": true,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "d557149d-09c7-4de1-a370-6c68e6865973",
+    "id": "26c7cd72-9550-460c-ab2c-f9467b8150e5",
+    "code": "",
+    "ean": null,
+    "priority": 2,
+    "name": "BERMUDA COM LISTRA E AMARRAÇÃO AZUL",
+    "description": "",
+    "price": 79.9,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": true,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 11,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "ccd687f2-88fd-4ee5-825b-c28ae1d551ff",
+        "default": false,
+        "description": "BERMUDA COM LISTRA E AMARRAÇÃO AZUL",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/595bd6d6-74d3-4eda-9e6e-0f60e5af62a9.png"
+      }
+    ],
+    "variationsGrid": false,
+    "variations": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "categoryId": "d557149d-09c7-4de1-a370-6c68e6865973",
+    "id": "7fba2e6a-5769-47b1-9964-a1c815760a61",
+    "code": "",
+    "ean": null,
+    "priority": 3,
+    "name": "BERMUDA COM AMARRAÇÃO",
+    "description": "Medidas do modelo:\nAltura: 1,82\nTórax: 92\nCintura: 78\nModelo veste tamanho: M\n---------------------------------------\nMedidas do modelo:\nAltura: 1,82\nTórax: 92\nCintura: 78\nModelo veste tamanho: M\n---------------------------------------\nMedidas do modelo:\nAltura: 1,82\nTórax: 92\nCintura: 78\nModelo veste tamanho: M",
+    "price": 69.9,
+    "availability": "AVAILABLE",
+    "availabilityOrigin": "PRODUCT",
+    "measure": "",
+    "merchantSuggestion": true,
+    "byIntegration": false,
+    "isPromotion": false,
+    "promotion": null,
+    "stock": {
+      "active": false,
+      "current": 0,
+      "min": 0,
+      "orderMax": 0
+    },
+    "ship": {
+      "active": false,
+      "height": 0,
+      "width": 0,
+      "length": 0,
+      "weight": 0
+    },
+    "images": [
+      {
+        "id": "74afa391-15cb-46bd-91c6-ebbf126526aa",
+        "default": false,
+        "description": "BERMUDA LISA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/623e2e5f-cc4e-4900-9d06-e0850d938b15.png"
+      },
+      {
+        "id": "c62057d0-221a-481c-9d0f-49e5f51f04df",
+        "default": false,
+        "description": "BERMUDA LISA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/cb6159c0-fd2b-4847-9260-aee02b23bb03.png"
+      },
+      {
+        "id": "f2ff04db-5d78-4c75-b20d-d8b5c80ce9e4",
+        "default": false,
+        "description": "BERMUDA LISA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/0387f98e-c61b-4ad4-b92d-a79f6dcdc05b.png"
+      },
+      {
+        "id": "8d82be03-90c4-4ace-8d6b-85c712c9ac1a",
+        "default": false,
+        "description": "BERMUDA LISA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/d0f072e6-5c8f-48f2-8e3a-d453e55c60de.png"
+      },
+      {
+        "id": "6dd4c842-9b2d-49e4-907e-7cb94fbdee26",
+        "default": false,
+        "description": "BERMUDA LISA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/feef1ac8-200d-4984-9014-34f6017ae92f.png"
+      },
+      {
+        "id": "02fcd8cf-f7f8-44c0-b890-f23aa50f5a38",
+        "default": false,
+        "description": "BERMUDA LISA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/f2c701be-8ed8-4d75-bfb4-1cff57249935.png"
+      },
+      {
+        "id": "3a1dff26-669f-4730-923d-37e92d7b0794",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_d4c1639c-3f78-426b-9d1e-1bdba1b5b1ec.png"
+      },
+      {
+        "id": "be3117d1-ffeb-44d5-9d3c-c1fb5cfa27f6",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_d5bfd7ad-5a28-4c83-8c0a-cebf5b1ac170.png"
+      },
+      {
+        "id": "9b0e15cc-071a-4f8a-8e4b-2f7c55c2e224",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_a6bb10a4-fcf0-4d9b-b0f8-0d83b8a62c91.png"
+      },
+      {
+        "id": "92bd1a43-8d99-4e8d-a673-c98a8ef189bd",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_4195587a-fdcb-4670-aedd-a2dc12548288.png"
+      },
+      {
+        "id": "f016b20b-9884-4f7b-b56a-0fc3e3f0fe3c",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_6c1f8b99-17d9-4f62-ad4b-8d4a6e1184f1.png"
+      },
+      {
+        "id": "67be9e19-dca5-4b72-af05-217c4a258913",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_1c5e78cf-f6f3-4915-bd36-15d8b3ab2516.png"
+      },
+      {
+        "id": "7454dfb8-f7fc-47c6-a409-ab3d348b32e0",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_b70c898c-9397-4dc6-a964-470b6d083ed9.png"
+      },
+      {
+        "id": "4e43d519-ea2a-46d7-ad7b-2c49ea29f59c",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_bc008b37-29fa-4a4c-918f-8d31901a611f.png"
+      },
+      {
+        "id": "bade7ef5-766c-4162-b47b-2920edc055fc",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_0991fa60-a0f8-48c7-a486-90a657922a57.png"
+      },
+      {
+        "id": "f60e7381-0f55-4aa9-867a-c6faebcfad99",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_47617f7c-1432-4f13-829b-156cf5002b99.png"
+      },
+      {
+        "id": "a14598b4-fb53-43f3-a370-3a443b5e0d2c",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_cba41c21-f652-489a-8613-092aaca863d4.png"
+      },
+      {
+        "id": "19d62ecb-8ad4-4088-a521-3c679c4f7fec",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_3df2f4f2-2636-4d7e-8ec2-d56eec94dc64.png"
+      },
+      {
+        "id": "2e6f9f7c-4e1b-4e78-bb57-7f9e23197bb0",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_4c1adc03-2bb9-4fe1-aa66-c6c7dd9d6502.png"
+      },
+      {
+        "id": "ac14da00-6fe5-4f12-8c32-3dedbde22a97",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_c3fd898e-48cc-415e-8d7d-85d9a795bdc8.png"
+      },
+      {
+        "id": "ee3aced5-9cd0-4b39-95d8-de3bce6ec3a7",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_9ece811b-a7f7-4879-bf10-7c12fb6cefdd.png"
+      },
+      {
+        "id": "35a4c98d-7005-4abb-95d8-2b785a8775cf",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_555fc907-6c4f-4ad7-b3f1-531cd741cec7.png"
+      },
+      {
+        "id": "1493e265-bf7a-4e95-8bcd-27c08f05e00a",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_45e6c80a-c136-400d-8046-cadd034d3b2f.png"
+      },
+      {
+        "id": "bfad84b2-e3e8-4841-bb7d-8fc90ed07b0e",
+        "default": false,
+        "description": "BERMUDA COM AMARRAÇÃO",
+        "path": "https://meucarrinhostg.blob.core.windows.net/images/product-7fba2e6a-5769-47b1-9964-a1c815760a61_3563715d-b294-488b-860e-d09a7db6365d.png"
+      }
+    ],
+    "variationsGrid": true,
+    "variations": []
+  }
+]
