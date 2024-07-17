@@ -1,16 +1,19 @@
 const express = require("express");
+const cors = require("cors");
 const app = express();
 const productRoutes = require("./routes/productRoutes");
 const authRoutes = require("./routes/authRoutes");
 
 const PORT = 3000;
 
+app.use(cors());
+
 app.use(express.json());
 
 app.get("/", (req, res) => {
   res.json({
     title: "API Test Tonilab",
-    version: "1.0.1",
+    version: "1.0.2",
     author: "Antônio Abrantes",
   });
 });
