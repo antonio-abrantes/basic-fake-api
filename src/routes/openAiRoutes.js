@@ -40,7 +40,11 @@ router.post("/analyze-price", async (req, res) => {
 
     const result = response.data.choices[0].message.content;
 
-    res.send({ status: true, message: "Consulta realizada com sucesso!", result });
+    res.send({
+      status: true,
+      message: "Consulta realizada com sucesso!",
+      result,
+    });
   } catch (error) {
     console.error(
       "Erro ao realizar a consulta:",

@@ -43,7 +43,23 @@ router.post("/upload-price", authMiddleware, async (req, res) => {
         .send({ status: false, error: "Tipo de imagem não suportado." });
     }
 
-    const extension = mime.extension(contentType);
+    // Mapeia tipos de conteúdo para extensões
+    let extension;
+    switch (contentType) {
+      case "image/jpeg":
+      case "image/jpg":
+        extension = "jpg";
+        break;
+      case "image/png":
+        extension = "png";
+        break;
+      case "image/gif":
+        extension = "gif";
+        break;
+      default:
+        extension = mime.extension(contentType);
+    }
+
     const uniqueId = uuid.v4();
     const fileName = `${uniqueId}.${extension}`;
     const filePath = path.join(__dirname, fileName);
