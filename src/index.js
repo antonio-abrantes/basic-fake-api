@@ -4,6 +4,7 @@ const app = express();
 const productRoutes = require("./routes/productRoutes");
 const authRoutes = require("./routes/authRoutes");
 const uploadPriceRoutes = require('./routes/uploadPriceRoutes');
+const openAiRoutes = require('./routes/openAiRoutes');
 
 const PORT = 3000;
 
@@ -22,6 +23,7 @@ app.get("/", (req, res) => {
 app.use("/api", productRoutes);
 app.use("/api/auth", authRoutes);
 app.use('/api', uploadPriceRoutes);
+app.use('/api/analyze', openAiRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
