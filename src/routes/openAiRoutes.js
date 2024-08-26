@@ -1,5 +1,6 @@
 const express = require("express");
 const axios = require("axios");
+const authMiddleware = require("../middlewares/authMiddleware");
 
 const router = express.Router();
 
@@ -8,7 +9,7 @@ const openAiEndpoint = "https://api.openai.com/v1/chat/completions";
 const command =
   "Localize a etiqueta ou cartaz de preço na imagem e identifique o nome e o preço do produto correspondente. Se houver múltiplos preços na mesma imagem, priorize o produto cujo preço estiver mais centralizado.";
 
-router.post("/analyze-price", async (req, res) => {
+router.post("/analyze-price", authMiddleware, async (req, res) => {
   try {
     const { apiKey, imageUrl } = req.body;
 

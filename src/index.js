@@ -5,6 +5,7 @@ const productRoutes = require("./routes/productRoutes");
 const authRoutes = require("./routes/authRoutes");
 const uploadPriceRoutes = require('./routes/uploadPriceRoutes');
 const openAiRoutes = require('./routes/openAiRoutes');
+const groqAiRoutes = require('./routes/groqAiRoutes');
 
 const PORT = 3000;
 
@@ -24,6 +25,7 @@ app.use("/api", productRoutes);
 app.use("/api/auth", authRoutes);
 app.use('/api', uploadPriceRoutes);
 app.use('/api/analyze', openAiRoutes);
+app.use('/api/groq', groqAiRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
