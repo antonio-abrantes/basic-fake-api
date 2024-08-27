@@ -7,7 +7,7 @@ const router = express.Router();
 const openAiEndpoint = "https://api.openai.com/v1/chat/completions";
 
 const command =
-  "Localize a etiqueta ou cartaz de preço na imagem e identifique o nome e o preço do produto correspondente. Se houver múltiplos preços na mesma imagem, priorize o produto cujo preço estiver mais centralizado. limpe ao maximo a string, retire caractes como pipes, barra, contra barra, barra n, virgula, cifrão, para a moeda real use Rs";
+  "Localize a etiqueta ou cartaz de preço na imagem e identifique o nome e o preço do produto correspondente. Se houver múltiplos preços na mesma imagem, priorize o produto cujo preço estiver mais centralizado. retire caractes como pipes, barra, contra barra, \n, cifrão, para moeda real use Rs";
 
 router.post("/analyze-price", authMiddleware, async (req, res) => {
   try {
@@ -40,6 +40,8 @@ router.post("/analyze-price", authMiddleware, async (req, res) => {
     });
 
     const result = response.data.choices[0].message.content;
+
+    console.log({ name: "OpenAiResult", command, data: response.data });
 
     res.send({
       status: true,

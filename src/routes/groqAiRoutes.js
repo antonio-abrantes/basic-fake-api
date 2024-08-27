@@ -51,6 +51,8 @@ router.post("/completions", authMiddleware, async (req, res) => {
   try {
     const completion = await retryRequest();
 
+    console.log({ name: "GroqResult", command, data: completion });
+
     const result = completion.choices[0]?.message?.content || "";
     const cleanedJsonString = result.replace(/```json|```/g, "").trim();
 
