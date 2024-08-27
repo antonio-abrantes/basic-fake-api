@@ -41,7 +41,7 @@ router.post("/analyze-price", authMiddleware, async (req, res) => {
 
     const result = response.data.choices[0].message.content;
 
-    console.log({ name: "OpenAiResult", command, data: response.data });
+    console.log({ name: "OpenAiResult", data: response.data });
 
     res.send({
       status: true,
