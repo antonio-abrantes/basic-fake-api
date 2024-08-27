@@ -16,23 +16,42 @@ router.post("/completions", authMiddleware, async (req, res) => {
 
   const groq = new Groq({ apiKey });
 
+  const retryRequest = async (attempts = 3, delay = 1000) => {
+    try {
+      const completion = await groq.chat.completions.create({
+        messages: [
+          {
+            role: "user",
+            content:
+              "Conforme o contexto: " +
+              promptContext +
+              ", siga estritamente o que é pedido a seguir: " +
+              prompt,
+          },
+        ],
+        model: model,
+      });
+
+      return completion;
+    } catch (error) {
+      if (
+        attempts === 0 ||
+        ![503, 502, 504].includes(error?.response?.status)
+      ) {
+        throw error;
+      }
+      console.log(
+        `Erro na API da Groq, tentativa restante: ${attempts}. Tentando novamente em ${delay}ms...`
+      );
+      await new Promise((resolve) => setTimeout(resolve, delay));
+      return retryRequest(attempts - 1, delay * 2); // Retry with exponential backoff
+    }
+  };
+
   try {
-    const completion = await groq.chat.completions.create({
-      messages: [
-        {
-          role: "user",
-          content:
-            "Conforme o contexto: " +
-            promptContext +
-            ", siga estritamente o que é pedido a seguir: " +
-            prompt,
-        },
-      ],
-      model: model,
-    });
+    const completion = await retryRequest();
 
     const result = completion.choices[0]?.message?.content || "";
-    // console.log("Result OK: ", result);
     const cleanedJsonString = result.replace(/```json|```/g, "").trim();
 
     try {
@@ -50,7 +69,7 @@ router.post("/completions", authMiddleware, async (req, res) => {
       });
     }
   } catch (error) {
-    console.log(error);
+    console.error("Erro ao processar a solicitação: ", error.message);
     res.status(500).json({
       status: false,
       message: "Ocorreu um erro ao processar a solicitação",

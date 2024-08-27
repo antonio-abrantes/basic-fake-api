@@ -16,7 +16,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.json({
     title: "API Test Tonilab",
-    version: "1.0.2",
+    version: "1.1.0",
     author: "Antônio Abrantes",
   });
 });
