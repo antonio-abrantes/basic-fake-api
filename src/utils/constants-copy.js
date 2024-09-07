@@ -21,10 +21,21 @@ const minioData = {
   secretKey: "",
 };
 
+const pgCredentiasl = {
+  user: "postgres",
+  host: "your_host_name",
+  database: "your_database",
+  port: 5432,
+  password: "your_password",
+};
+
 module.exports = {
   tokenApp,
   secretKey,
   tokenData,
   userAdmin,
   minioData,
+  evoApiBaseUrl,
+  evoApiKey,
+  pgCredentiasl,
 };
