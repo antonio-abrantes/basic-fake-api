@@ -5,8 +5,7 @@ const userAdmin = {
 
 const secretKey = "";
 
-const tokenApp =
-  "";
+const tokenApp = "";
 
 const tokenData = {
   id: "",
@@ -29,6 +28,14 @@ const pgCredentiasl = {
   password: "your_password",
 };
 
+const users = [
+  {
+    user: "usuario",
+    password: "senha",
+    rule: "tipo",
+  },
+];
+
 module.exports = {
   tokenApp,
   secretKey,
@@ -38,4 +45,5 @@ module.exports = {
   evoApiBaseUrl,
   evoApiKey,
   pgCredentiasl,
+  users,
 };
