@@ -23,9 +23,7 @@ evoRoutes.post('/sendMessage', authMiddleware, async (req, res) => {
     const url = `${apiBaseUrl}/message/sendText/${botName}`;
     const body = {
         number: number,
-        textMessage: {
-            text: textMessage
-        }
+        text: textMessage
     };
     const headers = {
         'Content-Type': 'application/json',
