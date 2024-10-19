@@ -7,7 +7,8 @@ const uploadPriceRoutes = require('./routes/uploadPriceRoutes');
 const openAiRoutes = require('./routes/openAiRoutes');
 const groqAiRoutes = require('./routes/groqAiRoutes');
 const evoRoutes = require("./routes/evoRoutes");
-const processRoutes = require("./routes/processDBRoutes");
+// const processRoutes = require("./routes/processDBRoutes");
+const mpRoutes = require("./routes/mpRoutes");
 
 const PORT = 3000;
 
@@ -18,7 +19,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.json({
     title: "API Test Tonilab",
-    version: "1.1.9",
+    version: "1.2.2",
     author: "Antônio Abrantes",
   });
 });
@@ -29,7 +30,8 @@ app.use('/api', uploadPriceRoutes);
 app.use('/api/analyze', openAiRoutes);
 app.use('/api/groq', groqAiRoutes);
 app.use('/api/evoRoutes', evoRoutes);
-app.use('/api/process', processRoutes);
+// app.use('/api/process', processRoutes);
+app.use('/api/mpRoutes', mpRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);

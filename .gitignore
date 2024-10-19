@@ -133,3 +133,5 @@ documentation/
 src/utils/constants.js
 
 .vscode/
+
+/src/data/client_list.json
