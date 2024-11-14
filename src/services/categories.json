@@ -6,6 +6,7 @@
     "name": "PIZZA CREK TRADICIONAL",
     "priority": 1,
     "availability": "AVAILABLE",
+    "active": true,
     "byIntegration": false,
     "products": []
   },
@@ -16,6 +17,40 @@
     "name": "PIZZA CREK INTEGRAL",
     "priority": 2,
     "availability": "AVAILABLE",
+    "active": true,
+    "byIntegration": false,
+    "products": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "id": "642bb6c1-e496-4a7f-ae06-c4d354f8795a",
+    "code": "",
+    "name": "BOLOS FIT",
+    "priority": 3,
+    "availability": "AVAILABLE",
+    "active": true,
+    "byIntegration": false,
+    "products": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "id": "348b0546-8d3e-4070-a654-609f8c78171d",
+    "code": "",
+    "name": "Snacks",
+    "priority": 3,
+    "availability": "UNAVAILABLE",
+    "active": false,
+    "byIntegration": false,
+    "products": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "id": "e214a7bb-ccf6-4880-9216-bf0d78019d44",
+    "code": "",
+    "name": "Cookies e Biscoitos",
+    "priority": 3,
+    "availability": "AVAILABLE",
+    "active": true,
     "byIntegration": false,
     "products": []
   },
@@ -24,8 +59,9 @@
     "id": "fffa04e1-bd9d-44a0-9673-32be0096dc5d",
     "code": "",
     "name": "Roupas Diversas",
-    "priority": 1,
+    "priority": 4,
     "availability": "AVAILABLE",
+    "active": true,
     "byIntegration": false,
     "products": []
   },
@@ -34,8 +70,9 @@
     "id": "e4fa2fd0-a3d1-4d87-9fbc-515cdbbebf20",
     "code": "",
     "name": "Camiseta Masculina",
-    "priority": 2,
+    "priority": 5,
     "availability": "AVAILABLE",
+    "active": true,
     "byIntegration": false,
     "products": []
   },
@@ -44,8 +81,9 @@
     "id": "12df9cb0-ee00-4e6e-8ff9-0f182d440bb4",
     "code": "",
     "name": "Sapato Masculino",
-    "priority": 3,
+    "priority": 6,
     "availability": "AVAILABLE",
+    "active": true,
     "byIntegration": false,
     "products": []
   },
@@ -54,8 +92,9 @@
     "id": "d557149d-09c7-4de1-a370-6c68e6865973",
     "code": "2121",
     "name": "Bermuda Masculina",
-    "priority": 4,
+    "priority": 7,
     "availability": "AVAILABLE",
+    "active": true,
     "byIntegration": false,
     "products": []
   },
@@ -64,8 +103,9 @@
     "id": "63af54a2-f87a-49c5-b91c-076021b485f4",
     "code": "",
     "name": "Blusas Femininas",
-    "priority": 5,
+    "priority": 8,
     "availability": "AVAILABLE",
+    "active": true,
     "byIntegration": false,
     "products": []
   }
