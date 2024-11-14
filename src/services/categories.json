@@ -1,0 +1,72 @@
+[
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "id": "fc19167e-7054-4d30-8fda-0516d46e5f43",
+    "code": "",
+    "name": "PIZZA CREK TRADICIONAL",
+    "priority": 1,
+    "availability": "AVAILABLE",
+    "byIntegration": false,
+    "products": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "id": "7f9fefe8-cf58-4452-b7f3-e19890a997b9",
+    "code": "",
+    "name": "PIZZA CREK INTEGRAL",
+    "priority": 2,
+    "availability": "AVAILABLE",
+    "byIntegration": false,
+    "products": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "id": "fffa04e1-bd9d-44a0-9673-32be0096dc5d",
+    "code": "",
+    "name": "Roupas Diversas",
+    "priority": 1,
+    "availability": "AVAILABLE",
+    "byIntegration": false,
+    "products": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "id": "e4fa2fd0-a3d1-4d87-9fbc-515cdbbebf20",
+    "code": "",
+    "name": "Camiseta Masculina",
+    "priority": 2,
+    "availability": "AVAILABLE",
+    "byIntegration": false,
+    "products": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "id": "12df9cb0-ee00-4e6e-8ff9-0f182d440bb4",
+    "code": "",
+    "name": "Sapato Masculino",
+    "priority": 3,
+    "availability": "AVAILABLE",
+    "byIntegration": false,
+    "products": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "id": "d557149d-09c7-4de1-a370-6c68e6865973",
+    "code": "2121",
+    "name": "Bermuda Masculina",
+    "priority": 4,
+    "availability": "AVAILABLE",
+    "byIntegration": false,
+    "products": []
+  },
+  {
+    "merchantId": "2fc5e5c4-b1e6-4f49-bd94-7f2afd605f78",
+    "id": "63af54a2-f87a-49c5-b91c-076021b485f4",
+    "code": "",
+    "name": "Blusas Femininas",
+    "priority": 5,
+    "availability": "AVAILABLE",
+    "byIntegration": false,
+    "products": []
+  }
+]
