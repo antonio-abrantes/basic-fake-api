@@ -10,10 +10,9 @@ router.get("/categories", authMiddleware, (req, res) => {
   console.log(merchantId);
   if (merchantId) {
     result = categoriesService.getCategoriesByMerchantId(merchantId);
+  } else {
+    res.status(404).send("Merchant Not found");
   }
-  // else {
-  //   result = categoriesService.getCategories(merchantId);
-  // }
   res.json(result);
 });
 
@@ -34,7 +33,7 @@ router.get("/category/:id", authMiddleware, (req, res) => {
   if (category) {
     res.json(category);
   } else {
-    res.status(404).send("Product not found");
+    res.status(404).send("Category not found");
   }
 });
 

@@ -10,10 +10,22 @@ router.get("/products", authMiddleware, (req, res) => {
   console.log(merchantId);
   if (merchantId) {
     result = productsService.getProductsByMerchantId(merchantId);
+  } else {
+    return res.status(400).send("Merchant ID is required");
   }
-  // else {
-  //   result = productsService.getProducts(merchantId);
-  // }
+  res.json(result);
+});
+
+router.get("/products/category", authMiddleware, (req, res) => {
+  const { categoryId } = req.query;
+  let result = [];
+
+  if (categoryId) {
+    result = productsService.getProductsByCategoryId(categoryId);
+  } else {
+    return res.status(400).send("Category ID is required");
+  }
+
   res.json(result);
 });
 

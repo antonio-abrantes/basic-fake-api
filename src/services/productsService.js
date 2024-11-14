@@ -12,6 +12,11 @@ const getProductsByMerchantId = (merchantId) => {
   return products.filter((product) => product.merchantId === merchantId);
 };
 
+const getProductsByCategoryId = (categoryId) => {
+  const products = getProducts();
+  return products.filter((product) => product.categoryId === categoryId);
+};
+
 const getProductById = (id) => {
   const products = getProducts();
   return products.find((product) => product.id === id);
@@ -35,6 +40,7 @@ module.exports = {
   getProducts,
   getProductsByMerchantId,
   getProductById,
+  getProductsByCategoryId,
   findProductsByName,
   findProductsByDescription,
 };
