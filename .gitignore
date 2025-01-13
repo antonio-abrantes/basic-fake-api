@@ -135,3 +135,5 @@ src/utils/constants.js
 .vscode/
 
 /src/data/client_list.json
+/src/faqs
+/src/faqList.txt

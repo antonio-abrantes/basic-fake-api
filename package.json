@@ -22,6 +22,10 @@
     "uuid": "^10.0.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "html-pdf": "^3.0.1",
+    "moment": "^2.29.4",
+    "phantomjs-prebuilt": "^2.1.16",
+    "puppeteer": "^24.0.0"
   }
 }
