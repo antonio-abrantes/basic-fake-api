@@ -1,10 +1,10 @@
 const express = require("express");
-const pdf = require('html-pdf');
+const puppeteer = require('puppeteer');
 const moment = require('moment');
 
 const reportRoutes = express.Router();
 
-function criarRelatorioPdf(dadosPedido, empresaPersonalizada, config) {
+async function criarRelatorioPdf(dadosPedido, empresaPersonalizada, config) {
     let formatoPapel = 'A4';  // Começa com A4 como padrão
     let isPapelContinuo = false; // Começa como false
     let dimensoes = ['210']; // Valor padrão A4 (210mm)
@@ -36,6 +36,7 @@ function criarRelatorioPdf(dadosPedido, empresaPersonalizada, config) {
         <!DOCTYPE html>
         <html>
         <head>
+            <meta charset="UTF-8">
             <style>
                 @page {
                     size: ${isPapelContinuo ? `${dimensoes[0]}mm auto` : 'auto'};
@@ -206,76 +207,101 @@ function criarRelatorioPdf(dadosPedido, empresaPersonalizada, config) {
             </html>
     `;
 
-    let options = {
-        format: formatoPapel,
-        width: isPapelContinuo ? `${dimensoes[0]}mm` : undefined,
-        height: isPapelContinuo ? '297mm' : undefined,
-        border: {
-            top: "40px",
-            right: "40px",
-            bottom: isPapelContinuo ? "0" : "16px",
-            left: "40px"
+    // Configurações base do PDF
+    let pdfOptions = {
+        format: formatoPapel?.toLowerCase(),
+        printBackground: true,
+        displayHeaderFooter: false,
+        margin: {
+            top: isPapelContinuo ? "10mm" : "40px",
+            right: isPapelContinuo ? "10mm" : "40px",
+            bottom: isPapelContinuo ? "10mm" : "32px",
+            left: isPapelContinuo ? "10mm" : "40px"
         }
     };
 
-    // Adiciona footer apenas se não for papel contínuo E for A4 com numeração
-    if (!isPapelContinuo && config?.type_of_paper?.trim().toLowerCase() === 'a4') {
-        options.footer = {
-            height: "16mm",
-            contents: {
-                default: '<div style="text-align: right; font-size: 8px; position: fixed; bottom: 16px; right: 40px;">{{page}}/{{pages}}</div>'
+    // Configuração das dimensões personalizadas
+    if (config?.type_of_paper) {
+        const paperType = config.type_of_paper.trim();
+        
+        if (paperType === '') {
+            pdfOptions = {
+                ...pdfOptions,
+                format: 'a4',
+                displayHeaderFooter: false,
+                preferCSSPageSize: true
+            };
+        } else if (paperType.toLowerCase() === 'a4') {
+            pdfOptions.displayHeaderFooter = true;
+            pdfOptions.headerTemplate = '<div></div>';
+            pdfOptions.footerTemplate = `
+                <div style="text-align: right; font-size: 8px; width: 100%; padding-right: 40px;">
+                    <span class="pageNumber"></span>/<span class="totalPages"></span>
+                </div>
+            `;
+        } else {
+            const dimensoes = paperType.split(',').map(dim => dim.trim());
+            
+            if (dimensoes.length === 1 && dimensoes[0]) {
+                // Papel contínuo - apenas largura
+                pdfOptions = {
+                    ...pdfOptions,
+                    format: undefined,
+                    width: `${dimensoes[0]}mm`,
+                    height: '297mm',
+                    preferCSSPageSize: true,
+                    displayHeaderFooter: false
+                };
+            } else if (dimensoes.length === 2) {
+                // Papel com largura e altura definidas
+                pdfOptions = {
+                    ...pdfOptions,
+                    format: undefined,
+                    width: `${dimensoes[0]}mm`,
+                    height: `${dimensoes[1]}mm`,
+                    preferCSSPageSize: true,
+                    displayHeaderFooter: true,
+                    headerTemplate: '<div></div>',
+                    footerTemplate: `
+                        <div style="text-align: right; font-size: 8px; width: 100%; padding-right: 40px;">
+                            <span class="pageNumber"></span>/<span class="totalPages"></span>
+                        </div>
+                    `
+                };
             }
+        }
+    } else {
+        pdfOptions = {
+            ...pdfOptions,
+            format: 'a4',
+            displayHeaderFooter: false,
+            preferCSSPageSize: true
         };
     }
 
-    // Configuração das dimensões
-    if (config && config.type_of_paper && config.type_of_paper.toLowerCase() !== 'a4') {
-        const dimensoes = config.type_of_paper.split(',').map(dim => dim.trim());
-        
-        if (dimensoes.length === 1 && dimensoes[0]) {
-            // Papel contínuo - apenas largura
-            const largura = parseInt(dimensoes[0]);
-            
-            options = {
-                ...options,
-                format: undefined,
-                width: `${largura}mm`,
-                height: '297mm', // Altura inicial mínima (A4)
-                border: {
-                    top: "10mm",
-                    right: "10mm",
-                    bottom: "10mm",
-                    left: "10mm"
-                }
-            };
-
-            // Configurações específicas para papel contínuo
-            options.zoomFactor = '1',
-            options.renderDelay = 1000;
-            options.quality = '100';
-            options.type = 'pdf';
-            options.orientation = 'portrait';
-            options.timeout = 120000;
-            
-            delete options.footer;
-
-        } else if (dimensoes.length === 2) {
-            // Papel com largura e altura definidas
-            options.width = `${dimensoes[0]}mm`;
-            options.height = `${dimensoes[1]}mm`;
-        }
-    }
-
-    return new Promise((resolve, reject) => {
-        pdf.create(html, options).toBuffer((err, buffer) => {
-            if (err) {
-                console.error('Erro ao gerar buffer do PDF:', err);
-                reject(err);
-            } else {
-                resolve(buffer);
-            }
+    try {
+        const browser = await puppeteer.launch({
+            headless: 'new',
+            args: ['--no-sandbox', '--disable-setuid-sandbox']
         });
-    });
+
+        const page = await browser.newPage();
+
+        await page.setContent(html, {
+            waitUntil: 'networkidle0'
+        });
+
+        // Gera o PDF
+        const buffer = await page.pdf(pdfOptions);
+
+        // Fecha o navegador
+        await browser.close();
+
+        return buffer;
+    } catch (error) {
+        console.error('Erro ao gerar PDF:', error);
+        throw error;
+    }
 }
 
 reportRoutes.post('/generate-pdf', async (req, res) => {
@@ -288,11 +314,18 @@ reportRoutes.post('/generate-pdf', async (req, res) => {
 
         const buffer = await criarRelatorioPdf(dados_pedido, empresa_personalizada, config);
         
-        res.setHeader('Content-Type', 'application/pdf');
-        res.setHeader('Content-Disposition', `attachment; filename=relatorio_pedido-${dados_pedido.orderNumber}.pdf`);
-        res.send(buffer);
+        // Configuração correta dos headers
+        res.writeHead(200, {
+            'Content-Type': 'application/pdf',
+            'Content-Length': buffer.length,
+            'Content-Disposition': `attachment; filename=relatorio_pedido-${dados_pedido.orderNumber}.pdf`
+        });
+
+        // Envia o buffer como um stream
+        res.end(buffer);
 
     } catch (error) {
+        console.error('Erro no endpoint:', error);
         res.status(500).json({ error: error.message });
     }
 });
